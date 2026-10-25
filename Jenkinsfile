@@ -9,7 +9,7 @@ pipeline {
         ANSIBLE_HOST_KEY_CHECKING = 'False'
         INV  = '/home/ubuntu/devops-infra/ansible/inventory.ini'
         KEY  = '/var/lib/jenkins/.ssh/olp_key'
-        PLAY = /home/ubuntu/devops-infra/ansible'
+        PLAY = '/home/ubuntu/devops-infra/ansible'
     }
 
     stages {
