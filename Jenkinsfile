@@ -7,9 +7,9 @@ pipeline {
         IMAGE     = "lakshmanarun28/learning-platform"
         DOCKERHUB = credentials('dockerhub-creds')
         ANSIBLE_HOST_KEY_CHECKING = 'False'
-        INV  = '/opt/devops-infra/ansible/inventory.ini'
+        INV  = '/home/ubuntu/devops-infra/ansible/inventory.ini'
         KEY  = '/var/lib/jenkins/.ssh/olp_key'
-        PLAY = '/opt/devops-infra/ansible'
+        PLAY = /home/ubuntu/devops-infra/ansible'
     }
 
     stages {
